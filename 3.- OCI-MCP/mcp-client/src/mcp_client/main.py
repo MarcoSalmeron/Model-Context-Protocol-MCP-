@@ -56,7 +56,7 @@ async def main() -> None:
 
 
 def run() -> None:
-    """Ejecuta el entrypoint asíncrono desde consola."""
+    """Ejecuta el entrypoint asíncrono desde consola"""
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
